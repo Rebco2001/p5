@@ -10,7 +10,7 @@ function askApi() {
     for (var i = 0; i <= items.length; i++) {
 
       let lien = document.createElement("a");
-      lien.href = "product.html?id="+items[i]._id; //comment creer le lien//
+      lien.href = "product.html?id="+items[i]._id;
 
       let article = document.createElement("article");
 

@@ -44,18 +44,27 @@
 
     <main class="limitedWidthBlockContainer">
       <div class="limitedWidthBlock">
-        <div class="titles">
-          <h1>Nos produits</h1>
-          <h2>Une gamme d'articles exclusifs</h2>
-        </div>
-        <section class="items" id="items"> 
-<!--           <a href="./product.html?id=42">
-            <article>
-              <img src=".../product01.jpg" alt="Lorem ipsum dolor sit amet, Kanap name1">
-              <h3 class="productName">Kanap name1</h3>
-              <p class="productDescription">Dis enim malesuada risus sapien gravida nulla nisl arcu. Dis enim malesuada risus sapien gravida nulla nisl arcu.</p>
-            </article>
-          </a> -->
+        <section class="item">
+          <article>
+            <div class="item__img">
+              <img src="../images/logo.png" alt="Photographie d'un canapé"> -->
+            </div>
+            <div class="item__content">
+              <div class="item__content__titlePrice">
+                <h1 id="title">Nom du produit</h1>
+                <p>Prix : <span id="price">35</span>€</p>
+              </div>
+
+              <div class="item__content__description">
+                <p class="item__content__description__title">Description :</p>
+                <p id="description">Dis enim malesuada risus sapien gravida nulla nisl arcu.</p>
+              </div>
+            </div>
+
+            <div class="item__content__addButton">
+              <button id="addToCart">Ajouter au panier</button>
+            </div>
+          </article>
         </section>
       </div>
     </main>
